@@ -25,6 +25,7 @@ To run the app locally:
 - [Transformers](https://huggingface.co/transformers/)
 - [Requests](https://docs.python-requests.org/en/master/)
 - [dotenv](https://pypi.org/project/python-dotenv/)
+- [pytorch](https://pytorch.org)
 
 ## Usage
 
