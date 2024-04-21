@@ -33,7 +33,7 @@ def generate_story(scenario):
     story_llm = pipeline("text-generation", model="meta-llama/Meta-Llama-3-8B", max_length=200)
 
     # Generate the story based on the template
-    story = story_llm(template)
+    story = story_llm(template, do_sample=True, top_k=50, top_p=0.9)
 
     # Extract the generated text 
     generated_text = story[0]['generated_text']
