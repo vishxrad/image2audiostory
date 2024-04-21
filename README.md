@@ -37,9 +37,9 @@ To run the app locally:
 
 - [Hugging Face](https://huggingface.co/) for providing the models and API used in this app.
 - [Salesforce/blip-image-captioning-large](https://huggingface.co/Salesforce/blip-image-captioning-large) for image captioning.
-- [gpt-2-community](https://huggingface.co/gpt-2-community) for text generation. (Note: We are using GPT-2 from the gpt-2-community as it's lighter and more suitable for streaming via Streamlit.)
+- [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B) for text generation.
 - [espnet/kan-bayashi_ljspeech_vits](https://huggingface.co/espnet/kan-bayashi_ljspeech_vits) for text-to-speech conversion.
-
 ## Run Online
 
-You can run this project online [here](https://imagetostory-visharad.streamlit.app).
+- You can run this project online [here](https://imagetostory-visharad.streamlit.app).
+- Note: We are using GPT-2 from the openai-community/gpt2 for deploying this project as it's lighter as compared to LLAMA 3. Another reason for using it instead is because its not possible to load model shard checkpoints when streaming an application using streamlit. You can use an inference API to solve this issue, however you require a paid huggingface subscription.
