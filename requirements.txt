@@ -1,0 +1,7 @@
+streamlit==1.7.0
+transformers==4.15.0
+requests==2.26.0
+python-dotenv==0.19.2
+pytorch==1.10.0
+huggingface-hub==0.0.19
+huggingface-cli==2.0.5
