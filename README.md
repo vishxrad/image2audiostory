@@ -43,3 +43,4 @@ To run the app locally:
 
 - You can run this project online [here](https://imagetostory-visharad.streamlit.app).
 - Note: We are using GPT-2 from the openai-community/gpt2 for deploying this project as it's lighter as compared to LLAMA 3. Another reason for using it instead is because its not possible to load model shard checkpoints when streaming an application using streamlit. You can use an inference API to solve this issue, however you require a paid huggingface subscription.
+- If the streamed application does not work as intended/shows an error code (which is highly likely considering the fact that i am not using paid subscriptions for either accessing the models or deploying the application as well as i am not using a dedicated database to store the images and the audio files generated), feel free to contact me on my email or my socials.
